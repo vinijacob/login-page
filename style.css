@@ -14,7 +14,8 @@ body {
 input {
     box-sizing: border-box;
     border: none;
-    border-radius: 2px;
+    border-bottom: 1px solid #000;
+    /* border-radius: 5px; */
     padding: 10px 10px;
     background-color: #fff;
     color: #4a4a4a;
@@ -26,7 +27,8 @@ main {
     top: 50%;
     left: 50%;
 
-    background-color: #0083B0;
+    /* background-color: #fff; */
+    background-color: #fff;
     width: 300px;
     height: 500px;
 
@@ -62,19 +64,37 @@ form {
 }
 
 #submit_btn {
-    width: 100px;
+    width: 70%;
     text-align: center;
     cursor: pointer;
-    box-shadow: 1px 2px #000;
+    border: 1px solid #000;
+    box-shadow: 2px 2px #000;
+    background-color: #fff;
 
     /* transform: translate(50%); */
 }
 
-p {
+#submit_btn:active {
+    box-shadow: 1px 1px #000;
+    transform: translate(1px, 1px);
+}
+
+.fg_password {
     transform: translate(-15px, -30px);
 }
 
 a {
     text-decoration: none;
     color: #000;
+}
+
+aside {
+    text-align: center;
+    width: 60%;
+}
+
+aside img {
+    width: 32px;
+    margin: 10px;
+    cursor: pointer;
 }
