@@ -11,16 +11,6 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-input {
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 1px solid #000;
-    /* border-radius: 5px; */
-    padding: 10px 10px;
-    background-color: #fff;
-    color: #4a4a4a;
-}
-
 main {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -41,13 +31,6 @@ main {
     justify-content: space-around;
 }
 
-span {
-    position: absolute;
-    cursor: pointer;
-
-    transform: translate(80px, -25px);
-}
-
 header {
     text-align: center;
 }
@@ -61,6 +44,27 @@ form {
 
     width: 250px;
     height: 250px;
+}
+
+input {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #000;
+    /* border-radius: 5px; */
+    padding: 10px 10px;
+    background-color: #fff;
+    color: #4a4a4a;
+}
+
+span {
+    position: absolute;
+    cursor: pointer;
+
+    transform: translate(80px, -25px);
+}
+
+.fg_password {
+    transform: translate(-15px, -30px);
 }
 
 #submit_btn {
@@ -79,15 +83,6 @@ form {
     transform: translate(1px, 1px);
 }
 
-.fg_password {
-    transform: translate(-15px, -30px);
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
 aside {
     text-align: center;
     width: 60%;
@@ -97,4 +92,9 @@ aside img {
     width: 32px;
     margin: 10px;
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
